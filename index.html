@@ -3,30 +3,30 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title> NAVEEN | Portfolio </title>
+  <title>NAVEEN | Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
   <link href="style.css" rel="stylesheet">
 </head>
 <body>
 <div class="container">
   <nav>
-    <h1>👨‍💻 NAVEEN KANCHANAPALLI </h1>
+    <h1>👨‍💻 NAVEEN KANCHANAPALLI</h1>
     <ul>
       <li><a href="#about">About</a></li>
-      <li><a href="#projects">Projects</a></li>L
+      <li><a href="#projects">Projects</a></li>
       <li><a href="#contact">Contact</a></li>
     </ul>
   </nav>
 
   <section class="hero">
-    <h2>Hi, I'm <span class="typewriter"> NAVEEN </span></h2>
+    <h2>Hi, I'm <span class="typewriter">NAVEEN</span></h2>
     <p>Python Developer | Web Developer | Tech Enthusiast</p>
-    <a href="https://drive.google.com/file/d/17iIBeCYeajIdGE_VBHtZ50tYSfDIQgz4/view?usp=sharing" target="_blank" download>📄 Download Resume</a>
+    <a href="https://drive.google.com/file/d/17iIBeCYeajIdGE_VBHtZ50tYSfDIQgz4/view?usp=sharing" target="_blank" class="btn">📄 Download Resume</a>
   </section>
 
   <section id="about">
     <h2>About Me</h2>
-    <p>I build modern web apps using HTML, CSS, JavaScript & Python
-    </p>
+    <p>I build modern web apps using HTML, CSS, JavaScript & Python.</p>
   </section>
 
   <section id="projects">
@@ -34,56 +34,163 @@
     <div class="project-card">
       <h3>Chatbot with FastAPI</h3>
       <p>AI Chatbot built using FastAPI + OpenAI API</p>
-      <a href="#">View Project</a>
+      <a href="https://github.com/Naveenkanchanapalli/Chatbot_FastAPI" target="_blank">View Project</a>
     </div>
 
     <div class="project-card">
       <h3>Portfolio Website</h3>
       <p>My Personal Portfolio with HTML, CSS, JavaScript</p>
-      <a href="https://naveenkanchanapalli.github.io/Naveen_Profile/">View Project</a>
+      <a href="https://naveenkanchanapalli.github.io/Naveen_Profile/" target="_blank">View Project</a>
     </div>
 
     <div class="project-card">
-    <h3>Agriculture Guider Chatbot</h3>
-    <p>Chatbot built with html, Css, JavaScript, OpenAI API, FastAPI, Sql, MachineLearning Algorithms, Python. </p>
-    <a href="http://127.0.0.1:5500/html/view.html">View Project</a>
-  </div>
+      <h3>Agriculture Guider Chatbot</h3>
+      <p>Chatbot built with HTML, CSS, JavaScript, OpenAI API, FastAPI, SQL, Machine Learning Algorithms, Python.</p>
+      <a href="https://github.com/Naveenkanchanapalli/Agriculture_Guider_Chatbot" target="_blank">View Project</a>
+    </div>
   </section>
 
   <section id="contact">
     <h2>Contact Me 📩</h2>
     <p>Feel free to reach out for collaborations or any project discussions!</p>
-  
-
-    <div class="contact-info">
-      <a href="mailto:kanchanapallinaveen231@gmail.com" target="_blank">
-        📧 kanchanapallinaveen231@gmail.com
-      </a>
-
-      <a href="	https://www.linkedin.com/in/naveen-kanchanapalli-8ab19224a" target="_blank">
-        🔗 LinkedIn
-      </a>
-
-      <a href="https://github.com/Naveenkanchanapalli/Naveen_Profile/blob/main/README.md" target="_blank">
-        💻 GitHub
-      </a>
-    </div>
-  
-    <form action="https://formspree.io/f/your_formspree_api" method="POST">
-
-
-
-
-  
-
-  
     
-    <div class="social-links">
+    <div class="contact-info">
+      <a href="mailto:kanchanapallinaveen231@gmail.com" target="_blank">📧 Email</a>
+      <a href="https://www.linkedin.com/in/naveen-kanchanapalli-8ab19224a" target="_blank">🔗 LinkedIn</a>
+      <a href="https://github.com/Naveenkanchanapalli" target="_blank">💻 GitHub</a>
+    </div>
+
+    <form action="https://formspree.io/f/mvoepepg" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
   <footer>
-    <p> Made with ❤️ by Naveen kanchanapalli </p>
+    <p>Made with ❤️ by Naveen Kanchanapalli</p>
   </footer>
 </div>
-
 <script src="script.js"></script>
 </body>
 </html>
+
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #121212;
+  color: #fff;
+  scroll-behavior: smooth;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background: rgba(0, 0, 0, 0.8);
+  box-shadow: 0 0 15px rgba(0, 255, 255, 0.7);
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: cyan;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  color: #00ffcc;
+}
+
+.hero {
+  text-align: center;
+  padding: 150px 0;
+  animation: fadeIn 1.5s ease-in-out;
+}
+
+.project-card {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 2rem;
+  margin: 1.5rem 0;
+  border-radius: 12px;
+  box-shadow: 0 0 25px rgba(0, 255, 255, 0.7);
+  transition: transform 0.4s;
+}
+
+.project-card:hover {
+  transform: scale(1.1);
+}
+
+form input, form textarea {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  background: rgba(255, 255, 255, 0.1);
+  border: none;
+  color: white;
+  border-radius: 8px;
+}
+
+button {
+  padding: 10px 20px;
+  background: cyan;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #00ffcc;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; transform: translateY(30px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+</style>
+
+<script>
+const typeWriter = document.querySelector(".typewriter");
+const words = ["Python Developer", "Web Developer", "Tech Enthusiast"];
+let index = 0;
+let charIndex = 0;
+let currentWord = words[index];
+
+function typeEffect() {
+  if (charIndex < currentWord.length) {
+    typeWriter.innerHTML += currentWord[charIndex];
+    charIndex++;
+    setTimeout(typeEffect, 150);
+  } else {
+    setTimeout(eraseEffect, 2000);
+  }
+}
+
+function eraseEffect() {
+  if (charIndex > 0) {
+    typeWriter.innerHTML = currentWord.substring(0, charIndex - 1);
+    charIndex--;
+    setTimeout(eraseEffect, 100);
+  } else {
+    index = (index + 1) % words.length;
+    currentWord = words[index];
+    setTimeout(typeEffect, 500);
+  }
+}
+
+window.onload = typeEffect;
+</script>
