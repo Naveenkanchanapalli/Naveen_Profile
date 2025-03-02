@@ -1,3 +1,4 @@
+
 const typeWriter = document.querySelector(".typewriter");
 const words = ["Python Developer", "Web Developer", "Tech Enthusiast"];
 let index = 0;
