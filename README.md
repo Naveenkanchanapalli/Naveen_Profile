@@ -4,7 +4,7 @@
 Welcome to my personal portfolio website, where I showcase my skills, projects, and experiences as a software developer.
 
 ## 👨‍💻 About Me
-I'm **Naveen Kanchanapalli**, a passionate **Java Developer** with a Bachelor's degree in **Computer Science (AI and ML)** from **MLR Institute of Technology and Management**, Hyderabad.
+I'm **Naveen Kanchanapalli**, a passionate **Python Developer** with a Bachelor's degree in **Computer Science (AI and ML)** from **MLR Institute of Technology and Management**, Hyderabad.
 
 📞 9666491319 | ✉️ kanchanapallinaveen231@gmail.com | [LinkedIn](https://linkedin.com/in/naveen-kanchanapalli-8ab19224a)
 
@@ -17,51 +17,48 @@ I'm **Naveen Kanchanapalli**, a passionate **Java Developer** with a Bachelor's 
 
 ---
 ## 💪 Experience
-### Java Developer Intern @ Let's Grow More (Remote)  
-**July 2023 – Sep. 2023**
-- Engineered scalable web applications using **Java, HTML, CSS, and JavaScript**, boosting application performance by **20%** and increasing user engagement by **25%**.
+### Python Developer Intern @ Oasis Infobyte (Remote)  
+**Jan 2025 – Mar. 2025**
+- Engineered scalable web applications using **Python, HTML, CSS, and JavaScript**, boosting application performance by **20%** and increasing user engagement by **25%**.
 - Collaborated with a team of **5 developers** to implement new features, reducing page load time by **15%** and bounce rates by **10%**.
 - Led debugging and code optimization efforts, reducing script errors by **30%** and achieving **99.5% uptime**.
 - Presented technical solutions to cross-functional teams, ensuring **100% on-time delivery**.
 
 ---
 ## 🔥 Projects
-### Brain Tumor Detection (Python, TensorFlow, Keras, OpenCV)
-📌 June 2023 – Nov 2023  
+### Facial Emotion Music Recommendation System | Python, OpenCV, TensorFlow, Keras
+📌 Jan 2024  
 [GitHub Link](#)
-- Developed a machine learning model achieving **90% accuracy** in detecting brain tumors from MRI scans.
-- Fine-tuned **SVM** and **GRNN classifiers**, improving classification accuracy by **15%**.
-
-### Currency Converter (Java)
-📌 Aug 2024  
-[GitHub Link](#)
-- Integrated a **real-time exchange rate API** to streamline currency conversions.
-- Delivered a user-friendly interface to enhance the overall user experience.
-
+ - Built real-time emotion detection from webcam using OpenCV.
+ - Trained CNN on FER-2013 dataset for classifying 7 emotions.
+ - Created music recommender system based on detected emotion.
+ - Integrated Spotify API to dynamically fetch songs.
 ### Calculator Web Application (HTML, CSS, JavaScript)
 📌 March 2024  
 [GitHub Link](#)
 - Built a responsive calculator web app that performs basic arithmetic operations.
 - Designed a clean interface with **HTML** and **CSS**, while **JavaScript** handled the logic.
 
-### Agriculture Guider Chatbot (Machine Learning)
-📌 Jan 2024  
+###  Tic Tac Toe Game – Python GUI Application | Python, Tkinter
+📌 Mar 2025  
 [GitHub Link](#)
-- Provided instant access to information on crop cultivation, pest management, and market prices.
-- Enabled informed decision-making for farmers through an intuitive chatbot interface.
+- Built an interactive 2-player Tic Tac Toe game using Python and the Tkinter library for GUI.
+-  Applied core Python concepts including functions, lists, conditionals, and event handling.
+-  Implemented clean modular code to manage player turns, validate moves, and check win/draw conditions.
+-  Designed a responsive 3x3 button grid interface with real-time updates and end-game pop-up alerts.
+-  Demonstrated strong understanding of Python GUI programming and problem-solving logic.
 
 ---
 ## 🏆 Certifications & Achievements
-- SQL Certification from **IBM**
-- Completed **Full Stack Development** course on Udemy (MERN Stack)
 - Participated in hackathons in **UI/UX Design**
+- Certified in Prompt Engineering for ChatGPT from **Great Learning**
 
 ---
 ## 💪 Technical Skills
-- **Languages:** Java, Python, SQL, HTML, CSS, JavaScript  
-- **Frameworks:** React.js, Node.js, Express.js, TensorFlow, Keras  
-- **Developer Tools:** VS Code, MongoDB, MS Office  
-- **Concepts:** OOPS, Machine Learning, Agile Methodology, Computer Networks
+- **Languages:** Python, SQL, HTML, CSS, JavaScript, java  
+- **Frameworks:** React.js, TensorFlow, Keras  
+- **Developer Tools:** VS Code, MS Office  
+- **Concepts:** OOPS, Artificial Intelligence, Machine Learning, Agile Methodology, Computer Networks
 
 ---
 ## 🌐 Live Demo
