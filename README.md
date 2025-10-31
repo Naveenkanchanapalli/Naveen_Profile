@@ -17,7 +17,7 @@ I'm **Naveen Kanchanapalli**, a passionate ** DATA SCIENSTIST** with a Bachelor'
 
 ---
 ## 💪 Experience
-###  Data Science Intern | INFOX IT Solutions  
+###  Data Science Intern | INFOZ IT Solutions  
 ** Jul 2025 – Oct. 2025**
 -  Developed and deployed ML models (Random Forest, XGBoost) achieving 85 percentage prediction accuracy for
    employee promotions using Python and MySQL.
